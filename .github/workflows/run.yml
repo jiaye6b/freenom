@@ -19,7 +19,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: '00 02 * ? Sat'
+    - cron: '10 7 1-31/3 * *'
   watch:
     types: [started]
 jobs:
